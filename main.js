@@ -9,3 +9,5 @@ function f() {
 }
 
 console.log(f())
+
+console.log(22)

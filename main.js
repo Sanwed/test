@@ -1,5 +1,5 @@
-const btn = document.querySelector('#btn')
+const btn = document.querySelector('#btn');
 
-btn.onclick = function () {
-  console.log('Кнопка нажата')
-}
+btn.addEventListener('click', () => {
+  console.log('Кнопка нажата');
+});
